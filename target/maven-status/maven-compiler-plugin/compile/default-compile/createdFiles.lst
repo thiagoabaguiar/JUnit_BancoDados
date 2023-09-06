@@ -1,2 +1,4 @@
-classes\BancoDeDados.class
+classes\Conta.class
+classes\TransferenciaEntreContas.class
+classes\MinhaClasse.class
 classes\Principal.class

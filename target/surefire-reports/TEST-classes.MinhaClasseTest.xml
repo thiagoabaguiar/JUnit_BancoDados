@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="classes.BancoDeDadosTest" time="0.105" tests="7" errors="0" skipped="2" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="classes.MinhaClasseTest" time="0.095" tests="7" errors="0" skipped="2" failures="1">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="BR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
-    <property name="sun.java.command" value="C:\Users\cs384038\AppData\Local\Temp\surefire10121232834754961849\surefirebooter-20230906111224745_3.jar C:\Users\cs384038\AppData\Local\Temp\surefire10121232834754961849 2023-09-06T11-12-24_586-jvmRun1 surefire-20230906111224745_1tmp surefire_0-20230906111224745_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\cs384038\AppData\Local\Temp\surefire891439151017624557\surefirebooter-20230906114946653_3.jar C:\Users\cs384038\AppData\Local\Temp\surefire891439151017624557 2023-09-06T11-49-46_496-jvmRun1 surefire-20230906114946653_1tmp surefire_0-20230906114946653_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\cs384038\Java\Exercises\JUnit_TesteUnitarios\target\test-classes;C:\Users\cs384038\Java\Exercises\JUnit_TesteUnitarios\target\classes;C:\Users\cs384038\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\cs384038\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\cs384038\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\cs384038\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\cs384038\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\cs384038\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\cs384038\AppData\Local\Temp\surefire10121232834754961849\surefirebooter-20230906111224745_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\cs384038\AppData\Local\Temp\surefire891439151017624557\surefirebooter-20230906114946653_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="19.0.2+7-44"/>
@@ -59,60 +59,72 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="validaSO" classname="classes.BancoDeDadosTest" time="0.031">
-    <system-err><![CDATA[set. 06, 2023 11:12:25 AM classes.BancoDeDados iniciaConexao
+  <testcase name="validaSO" classname="classes.MinhaClasseTest" time="0.027">
+    <system-err><![CDATA[set. 06, 2023 11:49:47 AM classes.MinhaClasse iniciaConexao
 INFO: Iniciou conexão...
-set. 06, 2023 11:12:25 AM classes.BancoDeDados insereDados
+set. 06, 2023 11:49:47 AM classes.MinhaClasse insereDados
 INFO: Inseriu dados...
-set. 06, 2023 11:12:25 AM classes.BancoDeDados removeDados
+set. 06, 2023 11:49:47 AM classes.MinhaClasse removeDados
 INFO: Removeu dados...
 ]]></system-err>
   </testcase>
-  <testcase name="validaJRE" classname="classes.BancoDeDadosTest" time="0.003">
-    <system-err><![CDATA[set. 06, 2023 11:12:25 AM classes.BancoDeDados insereDados
+  <testcase name="validaJRE" classname="classes.MinhaClasseTest" time="0.003">
+    <system-err><![CDATA[set. 06, 2023 11:49:47 AM classes.MinhaClasse insereDados
 INFO: Inseriu dados...
-set. 06, 2023 11:12:25 AM classes.BancoDeDados removeDados
+set. 06, 2023 11:49:47 AM classes.MinhaClasse removeDados
 INFO: Removeu dados...
 ]]></system-err>
   </testcase>
-  <testcase name="validaUsuarioLogado" classname="classes.BancoDeDadosTest" time="0.0">
+  <testcase name="validaUsuarioLogado" classname="classes.MinhaClasseTest" time="0.0">
     <skipped type="org.opentest4j.TestAbortedException"><![CDATA[org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
 	at org.junit.jupiter.api.Assumptions.throwAssumptionFailed(Assumptions.java:316)
 	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
 	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:66)
-	at classes.BancoDeDadosTest.validaUsuarioLogado(BancoDeDadosTest.java:54)
+	at classes.MinhaClasseTest.validaUsuarioLogado(MinhaClasseTest.java:54)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ]]></skipped>
-    <system-err><![CDATA[set. 06, 2023 11:12:25 AM classes.BancoDeDados insereDados
+    <system-err><![CDATA[set. 06, 2023 11:49:47 AM classes.MinhaClasse insereDados
 INFO: Inseriu dados...
-set. 06, 2023 11:12:25 AM classes.BancoDeDados removeDados
+set. 06, 2023 11:49:47 AM classes.MinhaClasse removeDados
 INFO: Removeu dados...
 ]]></system-err>
   </testcase>
-  <testcase name="validacao1" classname="classes.BancoDeDadosTest" time="0.003">
-    <system-err><![CDATA[set. 06, 2023 11:12:25 AM classes.BancoDeDados insereDados
+  <testcase name="validacao1" classname="classes.MinhaClasseTest" time="0.002">
+    <system-err><![CDATA[set. 06, 2023 11:49:47 AM classes.MinhaClasse insereDados
 INFO: Inseriu dados...
-set. 06, 2023 11:12:25 AM classes.BancoDeDados removeDados
+set. 06, 2023 11:49:47 AM classes.MinhaClasse removeDados
 INFO: Removeu dados...
 ]]></system-err>
   </testcase>
-  <testcase name="validacao2" classname="classes.BancoDeDadosTest" time="0.002">
-    <system-err><![CDATA[set. 06, 2023 11:12:25 AM classes.BancoDeDados insereDados
+  <testcase name="validacao2" classname="classes.MinhaClasseTest" time="0.005">
+    <failure message="expected: &lt;false&gt; but was: &lt;true&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertFalse.failNotFalse(AssertFalse.java:63)
+	at org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:36)
+	at org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:31)
+	at org.junit.jupiter.api.Assertions.assertFalse(Assertions.java:227)
+	at classes.MinhaClasseTest.validacao2(MinhaClasseTest.java:44)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></failure>
+    <system-err><![CDATA[set. 06, 2023 11:49:47 AM classes.MinhaClasse insereDados
 INFO: Inseriu dados...
-set. 06, 2023 11:12:25 AM classes.BancoDeDados removeDados
+set. 06, 2023 11:49:47 AM classes.MinhaClasse removeDados
 INFO: Removeu dados...
 ]]></system-err>
   </testcase>
-  <testcase name="validacao3" classname="classes.BancoDeDadosTest" time="0.002">
-    <system-err><![CDATA[set. 06, 2023 11:12:25 AM classes.BancoDeDados insereDados
+  <testcase name="validacao3" classname="classes.MinhaClasseTest" time="0.003">
+    <system-err><![CDATA[set. 06, 2023 11:49:47 AM classes.MinhaClasse insereDados
 INFO: Inseriu dados...
-set. 06, 2023 11:12:25 AM classes.BancoDeDados removeDados
+set. 06, 2023 11:49:47 AM classes.MinhaClasse removeDados
 INFO: Removeu dados...
 ]]></system-err>
   </testcase>
-  <testcase name="validaUsuarioLogado2" classname="classes.BancoDeDadosTest" time="0.0">
+  <testcase name="validaUsuarioLogado2" classname="classes.MinhaClasseTest" time="0.0">
     <skipped message="Environment variable [USER] does not exist"/>
   </testcase>
 </testsuite>
